@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "79752e61-5d32-4ddc-83eb-86de64d84188",
+		"name": "Event Driven Microservices With Kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19293336"
+	},
+	"item": [
+		{
+			"name": "Order Service",
+			"item": [
+				{
+					"name": "Place Order (Producer)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"laptop order\",\n    \"qty\": 1,\n    \"price\": 100000\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
