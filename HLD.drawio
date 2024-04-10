@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-04-09T15:58:36.747Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="xsPvr-3CvRp-uT0JnMDq" version="24.2.3" type="device">
+  <diagram name="Page-1" id="_jU8gSEkdDMo_z7e3sEy">
+    <mxGraphModel dx="1007" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xDFaZnU2V-nysVkVz71j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xDFaZnU2V-nysVkVz71j-1" target="xDFaZnU2V-nysVkVz71j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-1" value="&lt;h2&gt;Order Service&lt;/h2&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-2" value="&lt;h2&gt;Stock Service&lt;/h2&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-3" value="&lt;h2&gt;Email Service&lt;/h2&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="670" y="305" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xDFaZnU2V-nysVkVz71j-4" target="xDFaZnU2V-nysVkVz71j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-4" value="&lt;h2&gt;Kafka Broker&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xDFaZnU2V-nysVkVz71j-4" target="xDFaZnU2V-nysVkVz71j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-10" value="&lt;b&gt;Producer&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-11" value="&lt;b&gt;Consumer&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-12" value="&lt;b&gt;Consumer&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-13" value="Microservice 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="200" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-14" value="Microservice 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="120" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xDFaZnU2V-nysVkVz71j-15" value="Microservice 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="385" width="95" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
